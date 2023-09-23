@@ -2114,7 +2114,7 @@
 <h3 id="简介-3">简介</h3>
 <p>C 语言没有单独的字符串类型，字符串被当作字符数组，即<code>char</code>类型的数组。比如，字符串<code>&quot;Hello&quot;</code>是当作数组<code>{'H', 'e', 'l', 'l', 'o'}</code>处理的。</p>
 <p>编译器会给数组分配一段连续内存，所有字符储存在相邻的内存单元之中。在字符串结尾，C 语言会自动添加一个全是二进制<code>0</code>的字节，写作<code>\0</code>字符，表示字符串结束。字符<code>\0</code>不同于字符<code>0</code>，前者的 ASCII 码是0（二进制形式<code>00000000</code>），后者的 ASCII 码是48（二进制形式<code>00110000</code>）。所以，字符串<code>&quot;Hello&quot;</code>实际储存的数组是<code>{'H', 'e', 'l', 'l', 'o', '\0'}</code></p>
-<p><img src="/static/202309231620287.png" alt="字符串"></p>
+<p><img src="/images/202309231620287.png" alt="字符串"></p>
 <p>所有字符串的最后一个字符，都是<code>\0</code>。这样做的好处是，C 语言不需要知道字符串的长度，就可以读取内存里面的字符串，只要发现有一个字符是<code>\0</code>，那么就知道字符串结束了。</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#998;font-style:italic">// 声明了一个10个成员的字符数组，可以当作字符串
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">// 由于必须留一个位置给`\0`，所以最多只能容纳9个字符的字符串
