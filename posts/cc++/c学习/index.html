@@ -444,9 +444,9 @@
 </tbody>
 </table>
 <p>单精度浮点数：</p>
-<p><img src="./images/202309231157841.png" alt="img"></p>
+<p><img src="/images/202309231157841.png" alt="img"></p>
 <p>双精度浮点数：</p>
-<p><img src="./images/202309231157750.png" alt="img"></p>
+<p><img src="/images/202309231157750.png" alt="img"></p>
 <p>在C语言中，变量的寻址是指确定变量在计算机内存中的位置，以便在程序中访问和操作。变量的寻址涉及到内存管理和计算机体系结构的复杂性，但可以简单地概括如下：</p>
 <ol>
 <li>
@@ -893,8 +893,8 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">// 在程序中使用该常量时，其值将始终为100，并且不能被修改。
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">int</span> MAX_VALUE <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">100</span>;
-</span></span></code></pre></div><p><img src="./images/202309231127442.png" alt="img"></p>
-<p><img src="./images/202309231128483.png" alt="img"></p>
+</span></span></code></pre></div><p><img src="/images/202309231127442.png" alt="img"></p>
+<p><img src="/images/202309231128483.png" alt="img"></p>
 <p>在 C 中，有两种简单的定义常量的方式：</p>
 <ol>
 <li>使用 <strong>#define</strong> 预处理器： #define 可以在程序中定义一个常量，它在编译时会被替换为其对应的值。</li>
@@ -1359,7 +1359,7 @@
 <p>每个变量都有一个内存位置，每个内存位置都定义了可使用<code>&amp;</code>运算符访问的地址，它表示了在内存中的一个地址</p>
 <h3 id="简介-2">简介</h3>
 <p>指针是一个值，这个值代表一个内存地址，因此指针相当于指向某个内存地址的路标。</p>
-<p><img src="./images/202309221515818.png" alt="img"></p>
+<p><img src="/images/202309221515818.png" alt="img"></p>
 <p>字符<code>*</code>表示指针，通常跟在类型关键字的后面，表示指针指向的是什么类型的值。比如，<code>char*</code>表示一个指向字符的指针，<code>float*</code>表示一个指向<code>float</code>类型的值的指针</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#998;font-style:italic">// 是一个指针，指向的内存地址存放的是一个整数。
 </span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">*</span> intPtr;
@@ -1560,7 +1560,7 @@
 </blockquote>
 <h4 id="为什么要使用回调函数">为什么要使用回调函数</h4>
 <p><strong>函数的好处和作用：解耦</strong></p>
-<img decoding="async" src="https://gitee.com/oil-lamp/picture-bed/raw/master/typora/202309221510700.jpeg" alt="Smiley face">
+<p><img src="/images/202309221510700.jpeg" alt="回调函数"></p>
 <p>下面以一段不完整的 C 语言代码来呈现上图的意思：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span><span style="color:#999;font-weight:bold;font-style:italic">&lt;stdio.h&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
 </span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span><span style="color:#999;font-weight:bold;font-style:italic">&lt;softwareLib.h&gt; // 包含Library Function所在读得Software library库的头文件</span><span style="color:#999;font-weight:bold;font-style:italic">
@@ -1610,7 +1610,7 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#900;font-weight:bold">printf</span>(<span style="color:#d14">&#34;Leaving Main Function. &#34;</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p><img src="./images/202309231508468.png" alt="image-20230923150829367"></p>
+</span></span></code></pre></div><p><img src="/images/202309231508468.png" alt="image-20230923150829367"></p>
 <p>可以看到，<code>Handle()</code>函数里面的参数是一个指针，在<code>main()</code>函数里调用<code>Handle()</code>函数的时候，给它传入了函数<code>Callback_1()/Callback_2()/Callback_3()</code>的函数名，这时候的函数名就是对应函数的指针，也就是说，<strong>回调函数其实就是函数指针的一种用法</strong>。</p>
 <h4 id="怎么使用带参数的回调函数">怎么使用带参数的回调函数？</h4>
 <p>眼尖的朋友可能发现了，前面的例子里面回调函数是没有参数的，那么能不能回调那些带参数的函数呢？答案是肯定的。那么怎么调用呢？稍微修改一下上面的例子就可以了：</p>
@@ -1648,7 +1648,7 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#900;font-weight:bold">printf</span>(<span style="color:#d14">&#34;Leaving Main Function. &#34;</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p><img src="./images/202309231509176.png" alt="image-20230923150902077"></p>
+</span></span></code></pre></div><p><img src="/images/202309231509176.png" alt="image-20230923150902077"></p>
 <p>并不是直接把<code>int Handle(int (*Callback)())</code>改成<code>int Handle(int (*Callback)(int))</code>就可以的，而是通过另外增加一个参数来保存回调函数的参数值，像这里<code>int Handle(int y, int (*Callback)(int))</code>的参数<code>y</code>。同理，可以使用多个参数的回调函数。</p>
 <h4 id="实例-2">实例</h4>
 <p>实例中<code>populate_array()</code>函数定义了三个参数，其中第三个参数是函数的指针，通过该函数来设置数组的值。定义了回调函数<code>getNextRandomValue()</code>，返回一个随机值，作为一个函数指针传递给<code>populate_array()</code> 函数。</p>
@@ -1777,10 +1777,10 @@
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="指向指针的指针">指向指针的指针</h3>
 <p>指向指针的指针是一种多级间接寻址的形式，或者说是一个指针链。通常，一个指针包含一个变量的地址。当定义一个指向指针的指针时，第一个指针包含了第二个指针的地址，第二个指针指向包含实际值的位置。</p>
-<p><img src="./images/202309231441674.jpeg" alt="C 中指向指针的指针"></p>
+<p><img src="/images/202309231441674.jpeg" alt="C 中指向指针的指针"></p>
 <p>一个指向指针的指针变量声明方式：<code>int **var;</code>，即在变量名前放置两个星号。</p>
 <p>当一个目标值被一个指针间接指向到另一个指针时，访问这个值需要使用两个星号运算符</p>
-<p><img src="./images/202309231443178.png" alt="image-20230923144319073"></p>
+<p><img src="/images/202309231443178.png" alt="image-20230923144319073"></p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">#include</span> <span style="color:#999;font-weight:bold;font-style:italic">&lt;stdio.h&gt;</span><span style="color:#999;font-weight:bold;font-style:italic">
 </span></span></span><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic"></span> 
 </span></span><span style="display:flex;"><span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">main</span> () {
