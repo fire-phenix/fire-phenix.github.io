@@ -6,16 +6,7 @@
     <description>Recent content in Posts on 火凤凰の世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 Sep 2023 22:14:28 +0800</lastBuildDate><atom:link href="https://fire-phenix.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C学习</title>
-      <link>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Fri, 22 Sep 2023 22:14:28 +0800</pubDate>
-      
-      <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 22 Sep 2023 22:10:42 +0800</lastBuildDate><atom:link href="https://fire-phenix.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;学习</title>
       <link>https://fire-phenix.github.io/posts/cc&#43;&#43;/c&#43;&#43;%E5%AD%A6%E4%B9%A0/</link>
@@ -23,6 +14,15 @@
       
       <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c&#43;&#43;%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>C学习</title>
+      <link>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 22 Sep 2023 22:10:42 +0800</pubDate>
+      
+      <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</guid>
+      <description>C学习 C 语言是一种通用的、面向过程式的计算机程序设计语言。最初是由丹尼斯·里奇在贝尔实验室为开发UNIX操作系统而设计的。C 语言最开始是于 1972 年在DEC PDP-1</description>
     </item>
     
     <item>

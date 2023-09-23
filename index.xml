@@ -6,7 +6,7 @@
     <description>Recent content on 火凤凰の世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 Sep 2023 22:14:28 +0800</lastBuildDate><atom:link href="https://fire-phenix.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Sep 2023 22:10:42 +0800</lastBuildDate><atom:link href="https://fire-phenix.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>导航</title>
       <link>https://fire-phenix.github.io/nav/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://fire-phenix.github.io/nav/</guid>
       <description>🌞 我的社交平台 GitHub Gitee 掘金 博客园 CSDN 🔨 友链 小林coding 菜鸟教程 阮一峰的网络日志 Java 全栈知识体系 Go 语言中文文档 📑 工具 在线工具 清华大学开源软件镜像站 矢量图标库 结构化 SQL 生</description>
-    </item>
-    
-    <item>
-      <title>C学习</title>
-      <link>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Fri, 22 Sep 2023 22:14:28 +0800</pubDate>
-      
-      <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -41,6 +32,15 @@
       
       <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c&#43;&#43;%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>C学习</title>
+      <link>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 22 Sep 2023 22:10:42 +0800</pubDate>
+      
+      <guid>https://fire-phenix.github.io/posts/cc&#43;&#43;/c%E5%AD%A6%E4%B9%A0/</guid>
+      <description>C学习 C 语言是一种通用的、面向过程式的计算机程序设计语言。最初是由丹尼斯·里奇在贝尔实验室为开发UNIX操作系统而设计的。C 语言最开始是于 1972 年在DEC PDP-1</description>
     </item>
     
     <item>
